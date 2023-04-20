@@ -16,10 +16,9 @@ We know that the images that enter the network as input must have the same size,
 
 On the other hand, for better training of the network, it is necessary to increase the number of photos. For this reason, we increased the number of photos to 7393 by using the data augmentation technique. We used data augmentation manually with the operators rotate, flip, increase or decrease the brightness according to that photo, and color filters. The advantage of doing this manually was that some anomaly photos like the ones below were detected and removed.
 
-![image](https://user-images.githubusercontent.com/103449830/233351110-a0c9aba9-c870-40f3-911c-3bd4d7c6bf8a.png)
-![image](https://user-images.githubusercontent.com/103449830/233351283-bdea03d1-f3c2-4b98-af9e-6a66ba9ff756.png)
-![image](https://user-images.githubusercontent.com/103449830/233351305-9d66ed34-90ec-4e3c-a548-b63b4674936d.png)
-![image](https://user-images.githubusercontent.com/103449830/233351333-8c94cda3-f0db-4e44-a248-af5846896123.png)
+| 1 | 2 | 3 | 4 |
+| --- | --- | --- | --- |
+|![image](https://user-images.githubusercontent.com/103449830/233351110-a0c9aba9-c870-40f3-911c-3bd4d7c6bf8a.png)|![image](https://user-images.githubusercontent.com/103449830/233351283-bdea03d1-f3c2-4b98-af9e-6a66ba9ff756.png)|![image](https://user-images.githubusercontent.com/103449830/233351305-9d66ed34-90ec-4e3c-a548-b63b4674936d.png)|![image](https://user-images.githubusercontent.com/103449830/233351333-8c94cda3-f0db-4e44-a248-af5846896123.png)
 
 Because our learning is a supervised learning type; The next step is to create an Excel file as a label for Convolutional Neural Network (CNN). In the Excel file, the names of the photos under the title (ID Case) and instead of not entering any type of gender, we used true or false for male. And also we had to use the number 0 to define the baby's age in Excel.
 
