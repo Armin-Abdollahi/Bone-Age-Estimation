@@ -35,4 +35,18 @@ Note that we save the Excel file with the .csv extension.
 
 Due to hardware limitations in training, we run our Convolutional Neural Network on the Google Colab platform. Also, to speed up the process of neural network training, we set the runtime type to GPU.
 
+
+|||||
+| --- | MAE | Loss | Accuracy |
+| VGG19 | --- | --- | --- |
+| VGG16 | --- | --- | --- |
+| CNN | --- | --- | --- |
+| U-net | --- | --- | --- |
+| Attention Mechanism | --- | --- | --- |
+
+
+
+
+
+
 -THE END-
