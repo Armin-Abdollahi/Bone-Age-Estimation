@@ -1,5 +1,6 @@
-# Bone-Age-Estimation
-Bone age estimation using hand X-Ray images
+# Bone Age Estimation Through Hand X-Ray Analysis with Visual Transformer Model
+
+![Armin Abdollahi](https://github.com/user-attachments/assets/897bdb92-0140-471f-9ff4-4a83789c9363)
 
 Well, in this project, we are going to estimate the bone age of people using X-Ray images of the hand.
 
